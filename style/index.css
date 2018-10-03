@@ -44,8 +44,10 @@ body{
 .header-text {
     outline: 1px solid green;
     font-family: 'EB Garamond', serif;
-    padding: 0 15px;
+    background: rgba(250, 250, 250, 0.1);
+    padding: 0 10px;
     display: flex;
+    /* justify-content: center; */
     flex-direction: column-reverse;
 }
 
@@ -62,15 +64,47 @@ body{
 
 .nav-container {
     outline: 1px solid red;
+    color: rgba(87, 90, 89, 0.9);
+    font-size: 15px;
+    text-decoration: none;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: space-around;
 }
 
 .nav-text {
-    color: rgba(87, 90, 89, 0.9);
-    font-size: 15px;
+    /* color: rgba(87, 90, 89, 0.9);
+    font-size: 15px; */
     text-decoration: none;
 }
 
 /* end of header */
+
+/* start of section */
+.myphoto {
+    outline: 1px solid brown;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../images/profile.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 500px;
+    min-width: 100%;
+    opacity: 0.8;
+}
+
+.myphoto-text {
+    outline: 1px solid orange;
+    font-size: 35px;
+    opacity: 1.0;
+}
+
+.who-am-i {
+    outline: 1px solid yellow;
+    display: flex;
+    align-items: flex-end;
+    align-content: flex-end;
+    font-size: 25px;
+    opacity: 1.0;
+}
