@@ -1,0 +1,55 @@
+/* CSS for my protfolio */
+
+/* html {
+    overflow-x: hidden;
+    font-size: 16px;
+}
+
+body{
+    background: #ffffff;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: "Inconsolata", monospace;
+    line-height: 1.8;
+    color: #7e8890;
+} 
+
+.strap-header{
+    padding: 0 30px;
+    width: 100%;
+    z-index: 3;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    -webkit-transition: .4s all ease-out;
+    transition: .4s all ease-out;
+}
+
+.strap-name{
+    float: left;
+    color: #ffffff;
+    padding-left: 60px;
+    font-size: 20;
+    display: block;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Rubik", sans-serif
+*/
+
+/* html, body {
+    padding: 0;
+    margin: 0;       
+} */
+
+.header-text {
+    font-family: 'EB Garamond', serif;
+    padding: 0 10px;
+}
+
+.name {
+    color: rbga(250,250,250, 0.9);
+    font-size: 40px;
+    display: inline-block;
+    margin-right: 15px;
+    padding-right: 15px;
+}
+
